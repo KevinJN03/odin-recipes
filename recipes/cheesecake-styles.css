@@ -68,3 +68,24 @@ grid-gap: 50px;
     list-style: none;
     line-height: 3;
 }
+
+@media screen and (max-width: 480px) {
+    figure{
+        width: 80vw;
+        height: auto;
+        background: none;
+        font-size: 14px;
+        padding-bottom: 15px
+    }
+
+    .recipe {
+        display: flex;
+        flex-direction: column;
+    }
+
+    #cheesecake-recipe ul {
+        list-style-type: square;
+        line-height: 2.5;
+    }
+
+}
