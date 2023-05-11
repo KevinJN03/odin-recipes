@@ -4,10 +4,24 @@
     font-family: 'Poppins', sans-serif;
 }
 
+html {
+    margin: 0;
+    padding: 0;
+    background: rgb(133,187,221);
+background: radial-gradient(circle, rgba(133,187,221,1) 10%, rgba(243,248,249,1) 50%);
+}
+
 
 main {
-    margin-top: 20vh
+    margin-top: 20vh;
 }
+
+.recipe-container{
+    display: flex;
+    flex-direction: row;
+    justify-content: center
+}
+
 #headline {
     text-align: center
 }
